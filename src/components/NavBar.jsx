@@ -21,7 +21,6 @@ const NavBar = () => {
                         <Link component={RouterLink} to="/" color="inherit" variant="h6">Microsoft identity platform</Link>
                     </Typography>
                     {isAuthenticated ? <WelcomeName /> : null}
-                    <WelcomeName />
                     <Button component={RouterLink} to="/profile" color="inherit">Profile</Button>
                     {isAuthenticated ? <SignOutButton /> : <SignInButton />}
                 </Toolbar>
