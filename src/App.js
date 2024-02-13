@@ -10,6 +10,7 @@ function App() {
         <PageLayout>
             <Grid container justifyContent="center">
                 <Pages />
+                <p>Hello</p>
             </Grid>
         </PageLayout>
     );
