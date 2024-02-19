@@ -1,6 +1,7 @@
 import Typography from "@mui/material/Typography";
 import NavBar from "./NavBar";
 import MyButton from "./CustomButton"
+import MyLoader from "./Loader"
 
 export const PageLayout = (props) => {
     return (
@@ -13,6 +14,7 @@ export const PageLayout = (props) => {
             <br />
             {props.children}
            <MyButton />
+           <MyLoader />
         </>
     );
 };

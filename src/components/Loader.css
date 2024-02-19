@@ -1,0 +1,41 @@
+.loaderDiv {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: flex-start;
+    max-width: 80%;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #b0e0e6;
+    margin: auto;
+}
+
+.startButton {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: #b6fcd5;
+    border-radius: 10px;
+}
+
+.stopButton {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: #fa8072;;
+    border-radius: 10px;
+}
+
+.toggleButton {
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background-color: #b6fcd5;
+    border-radius: 10px;
+}
+
+.loader {
+    padding: auto;
+    margin-bottom: 15px;
+}
